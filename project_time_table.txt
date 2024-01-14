@@ -1,0 +1,76 @@
+============================= Super Admin Module Done =====================
+
+Lead Module:
+Create Lead
+Create Note
+Setup Call 
+Highlihted Notes
+Mark as Customer 
+========================================> 6 Days approximately
+
+Customer Module:
+Customer List 
+Note
+Customer Support TIcket
+========================================> 4 Days approximately
+
+Call Module:
+Setup a Call
+Call Lists
+Set a Reminder
+========================================> 7 Days approximately
+
+Appointment Module:
+Book Appointment
+List of Appointment
+========================================> 3 Days approximately
+
+
+Invoice Module:
+Invoice List
+Create Invoice
+Pending Invoice 
+Paid Invoice
+========================================> 8 Days approximately
+
+Support Ticket Module:
+Create Ticket
+Transfer Ticket 
+Ticket Timer 
+========================================> 5 Days approximately
+
+Task Module:
+Create Task
+Task List 
+Task Timer 
+Transfer Task 
+========================================> 7 Days approximately
+
+Holiday Module:
+Holiday Request 
+Holiday Calender 
+HR Approve
+========================================> 5 Days approximately
+
+Siging/Signout Module:
+Daily Signin/Singout
+Signin Report Generator 
+Share
+========================================> 5 Days approximately
+
+
+HRM Module:
+Role List
+Create Role
+User List 
+Create User 
+Permission List 
+Create Department 
+Department List
+Create Designation 
+Designation List 
+Create Employee 
+Employee LIst 
+
+========================================> 5 Days approximately
+

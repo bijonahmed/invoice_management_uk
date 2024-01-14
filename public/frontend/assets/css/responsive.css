@@ -1,0 +1,418 @@
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 1580px) {
+    
+    /* CSS */
+
+
+    
+  }
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1470px) {
+  
+  /* CSS */
+  
+    /* Overlap Design Own */
+
+
+
+
+
+  
+}
+
+
+@media (min-width: 1290px) and (max-width: 1340px) {
+  
+  /* CSS */
+  
+    /* Overlap Design Own */
+
+
+.overlap{
+  right: 17%;
+
+} 
+}
+
+@media (min-width: 1220px) and (max-width: 1290px) {
+  
+  /* CSS */
+  
+    /* Overlap Design Own */
+
+
+.overlap{
+  right: 15.5%;
+
+} 
+}
+
+@media (min-width: 1180px) and (max-width: 1220px) {
+  
+  /* CSS */
+  
+    /* Overlap Design Own */
+
+
+.overlap{
+  right: 14%;
+
+} 
+}
+
+@media (min-width: 1140px) and (max-width: 1180px) {
+  
+  /* CSS */
+  
+    /* Overlap Design Own */
+
+
+.overlap{
+  right: 12%;
+
+} 
+}
+
+@media (min-width: 1100px) and (max-width: 1140px) {
+  
+  /* CSS */
+  
+    /* Overlap Design Own */
+
+
+.overlap{
+  right: 11%;
+
+} 
+}
+
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1100px) {
+  
+  /* CSS */
+  .overlap{
+    right: 8.5%;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 991px) and (max-width: 1025px) {
+  
+  /* CSS */
+  .overlap{
+    right: 5.5%;
+  }
+  
+}
+
+@media (min-width: 945px) and (max-width: 992px) {
+  
+  /* CSS */
+  .overlap{
+    right: 15%;
+  }
+  
+}
+@media (min-width: 890px) and (max-width: 945px) {
+  
+  /* CSS */
+  .overlap{
+    right: 13%;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 840px) and (max-width: 890px){
+  
+  /* CSS */
+  .overlap{
+    right: 11%;
+  }
+  
+}
+@media (min-width: 800px) and (max-width: 840px){
+  
+  /* CSS */
+  .overlap{
+    right: 9%;
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 800px){
+  
+  /* CSS */
+  .overlap{
+    right: 7%;
+  }
+  
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 735px) and (max-width: 768px) {
+  
+  /* CSS */
+  .overlap{
+    right: 20%;
+  }
+  
+}
+
+@media (min-width: 690px) and (max-width: 735px) {
+  
+  /* CSS */
+  .overlap{
+    right: 18%;
+  }
+  
+}
+
+@media (min-width: 650px) and (max-width: 690px) {
+  
+  /* CSS */
+  .overlap{
+    right: 16%;
+  }
+  
+}
+@media (min-width: 610px) and (max-width: 650px) {
+  
+  /* CSS */
+  .overlap{
+    right: 13.5%;
+  }
+  
+}
+
+@media (min-width: 570px) and (max-width: 610px) {
+  
+  /* CSS */
+  .overlap{
+    right: 11%;
+  }
+  
+}
+@media (min-width: 530px) and (max-width: 570px) {
+  
+  /* CSS */
+  .overlap{
+    right: 8%;
+  }
+  
+}
+@media (min-width: 490px) and (max-width: 530px) {
+  
+  /* CSS */
+  .overlap{
+    right: 4%;
+  }
+  
+}
+@media (min-width: 470px) and (max-width: 490px) {
+  
+  /* CSS */
+  .overlap{
+    right: 15.5%;
+  }
+  .overlap .profile .btn img{
+    width: 40px !important;
+    height: 40px !important;
+    padding: 2px;
+  
+}
+.overlap .profile .btn div{
+  top: 6%;
+  left: 23%;
+  background-color: #fff !important;
+  width: 22px;
+  height: 22px;
+  
+}
+.overlap .profile .btn i{
+  color: red !important;
+  font-size: 14px !important;
+  line-height: 10px;
+
+}
+.overlap .btn p,.overlap .btn i{
+  color: #fff !important;
+  font-size: 12px;
+  
+}
+}
+
+
+@media (min-width: 440px) and (max-width: 470px) {
+  
+  /* CSS */
+  .overlap{
+    right: 14%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 440px) {
+  
+  /* CSS */
+  .overlap{
+    right: 12%;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 400px) {
+  
+  /* CSS */
+  .overlap{
+    right: 8%;
+  }
+}
+@media (min-width: 320px) and (max-width: 360px) {
+  
+  /* CSS */
+  .overlap{
+    right: 2%;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 300px) and (max-width: 480px) {
+  
+  /* CSS */
+  .video-edit{
+    margin-bottom: 1.5rem !important;
+
+  }
+  .overlap .profile .btn img{
+    width: 40px !important;
+    height: 40px !important;
+    padding: 2px;
+  
+}
+.overlap .profile .btn div{
+  top: 6%;
+  left: 23%;
+  background-color: #fff !important;
+  width: 22px;
+  height: 22px;
+  
+}
+.overlap .profile .btn i{
+  color: red !important;
+  font-size: 14px !important;
+  line-height: 10px;
+
+}
+.overlap .btn p,.overlap .btn i{
+  color: #fff !important;
+  font-size: 12px;
+  
+}
+.overlap .live i,.overlap .live p{
+  color: red !important;
+  
+}
+}
+
+
+
+
+@media (min-width:300px) and (max-width: 768px) {
+
+  .nav-mobile-view{
+    display: none;
+    visibility: hidden !important;
+    opacity: 0 !important;
+  }
+
+}
+
+@media (min-width:300px) and (max-width: 576px){
+
+    ::-webkit-scrollbar-thumb{
+      background-color: transparent !important;
+    }
+    :root {
+      scroll-behavior: smooth !important;
+
+    }
+
+
+  /* .container-fluid{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+
+  } */
+
+
+  .overlay-age .age {
+    padding-top: 50% !important;
+  }
+  .camera {
+    position: absolute;
+    width: 0px !important;
+    height: 0px !important;
+    bottom: 12%;
+    left: 40%;
+
+  }
+  .camera i{
+    font-size: 12px !important;
+  }
+  .col-mobile-view{
+    width: 50% !important;
+    padding-right: calc(var(--bs-gutter-x) * 0.1);
+    padding-left: calc(var(--bs-gutter-x) * 0.1);
+  }
+  .menu-link{
+    font-size: 10px !important;
+  }
+  .nav.nav-bottom-line .nav-link {
+    padding: 0.45rem 0.1rem !important;
+  }
+  header.fixed-top + .profile-main {
+    padding-top: calc(2.2rem + 56px) !important;
+  }
+}

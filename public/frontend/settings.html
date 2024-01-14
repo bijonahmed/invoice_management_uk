@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from social.webestica.com/settings.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Dec 2022 22:46:52 GMT -->
+<head>
+	<title>Social - Network, Community and Event Theme</title>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="Bootstrap based News, Magazine and Blog Theme">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/choices.js/public/assets/styles/choices.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/dropzone/dist/dropzone.css" />
+  <link rel="stylesheet" type="text/css" href="assets/vendor/flatpickr/dist/flatpickr.css" />
+
+  <!-- Theme CSS -->
+	<link id="style-switch" rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link id="style-switch" rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+    
+</head>
+
+<body onload="myfunciton()">
+
+  <style>
+    .content-load{
+    display: none;
+  }
+    .preloader{
+      width: 100%;
+      height: 100vh;
+      background: #fff;
+    }
+    #circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 120px;
+    height: 120px;
+  }
+.loader{
+    padding: 5px;
+    width: calc(100% - 0px);
+    height: calc(100% - 0px);
+    border: 3px solid #fff;
+    border-radius: 50%;
+    border-bottom: 3px solid red;
+    border-top: 3px solid red;
+    animation: rotate 5s infinite linear;
+
+}
+@keyframes rotate{
+    100% {transform: rotate(360deg);}
+}
+
+</style>
+
+    <div class="preloader">
+      <div id="circle" class="">
+        <div class="loader">
+            <div class="loader">
+                <div class="loader">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<!-- Jquery Part -->
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-bootstrap/0.5pre/js/jquery-1.8.3.min.js">
+</script> 
+
+<script>
+  $(window).on('load',function(){
+    $(".preloader").fadeOut(1000);
+    $(".content-load").fadeIn(1000);
+  })
+</script>
+<!-- Popup Part End -->
+
+<!-- =======================
+Header START -->
+<header class="navbar-light bg-mode fixed-top pt-1 content-load">
+
+	<!-- Logo Nav START -->
+	<nav class="navbar navbar-icon navbar-expand-lg">
+		<div class="container-fluid">
+      
+      
+
+      <!-- Responsive navbar toggler -->
+      
+
+
+			<!-- Nav right START -->
+			<ul class="nav flex-nowrap align-items-center ms-auto list-unstyled">
+        <li class="nav-item ms-2 dropdown nav-search nav-mobile-view">
+          <a class="nav-link btn icon-md p-0" href="#" id="searchDropdown" role="button" data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="true">
+            <i class="bi bi-search fs-5"> </i>
+          </a>
+          <div class="dropdown-menu dropdown-animation dropdown-menu-end p-3 small" aria-labelledby="searchDropdown">
+            <!-- Profile info -->
+            <div class="nav flex-nowrap align-items-center">
+              <div class="nav-item w-100">
+                <form class="rounded position-relative">
+                  <input class="form-control ps-5 bg-light" type="search" placeholder="Search..." aria-label="Search">
+                  <button class="btn bg-transparent px-2 py-0 position-absolute top-50 start-0 translate-middle-y" type="submit"><i class="bi bi-search fs-5"> </i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item ms-2 dropdown nav-search nav-mobile-view">
+          <li class="nav-item ms-1">
+            <a class="nav-link icon-md btn btn-light p-0" href="">
+              <i class="bi bi-webcam fs-6"></i>
+            </a>
+          </li>
+          <li class="nav-item ms-1">
+            <a class="nav-link icon-md btn btn-light p-0" href="">
+              <i class="bi bi-plus-square fs-6"></i>
+            </a>
+          </li>
+          <li class="nav-item ms-1">
+            <a class="nav-link icon-md btn btn-light p-0" href="">
+              <i class="bi bi-chat-left-text fs-6"> </i>
+            </a>
+          </li>
+          <li class="nav-item ms-1">
+            <a class="nav-link icon-md btn btn-light p-0" href="">
+              <i class="bi bi-bell fs-6"> </i>
+            </a>
+          </li>
+
+          <div class="dropdown-menu dropdown-animation dropdown-menu-end p-3 small" aria-labelledby="searchDropdown">
+            <!-- Profile info -->
+            <div class="nav flex-nowrap align-items-center">
+              <div class="nav-item w-100">
+                <form class="rounded position-relative">
+                  <input class="form-control ps-5 bg-light" type="search" placeholder="Search..." aria-label="Search">
+                  <button class="btn bg-transparent px-2 py-0 position-absolute top-50 start-0 translate-middle-y" type="submit"><i class="bi bi-search fs-5"> </i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item ms-2 dropdown">
+					<a class="nav-link btn icon-md p-0" href="#" id="profileDropdown" role="button" data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="false">
+						<img class="avatar-img rounded-2" src="assets/images/avatar/07.jpg" alt="">
+					</a>
+          <ul class="dropdown-menu dropdown-animation dropdown-menu-end pt-3 small me-md-n3" aria-labelledby="profileDropdown">
+            <!-- Profile info -->
+            <li class="px-3">
+              <div class="d-flex align-items-center position-relative">
+                <!-- Avatar -->
+                <div class="avatar me-3">
+                  <img class="avatar-img rounded-circle" src="assets/images/avatar/07.jpg" alt="avatar">
+                </div>
+                <div>
+                  <a class="h6 stretched-link" href="#">Lori Ferguson</a>
+                  <p class="small m-0">Web Developer</p>
+                </div>
+              </div>
+              <a class="dropdown-item btn btn-primary-soft btn-sm my-2 text-center" href="user-profile.html">View profile</a>
+            </li>
+            <!-- Links -->
+            <li><a class="dropdown-item" href="settings.html"><i class="bi bi-gear fa-fw me-2"></i>Settings & Privacy</a></li>
+            <li> 
+              <a class="dropdown-item" href="" target="_blank">
+                <i class="fa-fw bi bi-life-preserver me-2"></i>Support
+              </a> 
+            </li>
+            <li> 
+              <a class="dropdown-item" href="" target="_blank">
+                <i class="fa-fw bi bi-card-text me-2"></i>Documentation
+              </a> 
+            </li>
+            <li class="dropdown-divider"></li>
+            <li><a class="dropdown-item bg-danger-soft-hover" href="sign-in.html"><i class="bi bi-power fa-fw me-2"></i>Sign Out</a></li>
+            <li> <hr class="dropdown-divider"></li>
+            <!-- Dark mode switch START -->
+            <li>
+              <div class="modeswitch-wrap" id="darkModeSwitch">
+                <div class="modeswitch-item">
+                  <div class="modeswitch-icon"></div>
+                </div>
+                <span>Dark mode</span>
+              </div>
+            </li> 
+            <!-- Dark mode switch END -->
+          </ul>
+				</li>
+			</ul>
+			<!-- Nav right END -->
+		</div>
+	</nav>
+	<!-- Logo Nav END -->
+</header>
+<!-- =======================
+Header END -->
+
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+  <!-- Container START -->
+  <div class="container content-load">
+    <div class="row">
+
+      <!-- Sidenav START -->
+      <div class="col-lg-3">
+
+        <!-- Advanced filter responsive toggler START -->
+				<!-- Divider -->
+				<div class="d-flex align-items-center mb-4 d-lg-none">
+					<button class="border-0 bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+						<i class="btn btn-dark fw-bold fa-solid fa-sliders"></i>
+            <span class="h6 mb-0 fw-bold d-lg-none ms-2">Settings</span>
+					</button>
+				</div>
+				<!-- Advanced filter responsive toggler END -->
+
+        <nav class="navbar navbar-light navbar-expand-lg mx-0">
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar">
+            <!-- Offcanvas body -->
+            <div class="offcanvas-body p-0">
+              <!-- Card START -->
+              <div class="card w-100">
+                <!-- Card body START -->
+                <div class="card-body">
+
+                <!-- Side Nav START -->
+                <ul class="nav nav-tabs nav-pills nav-pills-soft flex-column fw-bold gap-2 border-0">
+                  <li class="nav-item" data-bs-dismiss="offcanvas">
+                    <a class="nav-link d-flex mb-0 active" href="#nav-setting-tab-1" data-bs-toggle="tab"> <i class="me-2 bi bi-person"></i><span>Account </span></a>
+                  </li>
+                  <li class="nav-item" data-bs-dismiss="offcanvas">
+                    <a class="nav-link d-flex mb-0" href="#nav-setting-tab-2" data-bs-toggle="tab"> <i class="me-2 bi bi-bell"></i><span>Notification </span></a>
+                  </li>
+                  <li class="nav-item" data-bs-dismiss="offcanvas">
+                    <a class="nav-link d-flex mb-0" href="#nav-setting-tab-3" data-bs-toggle="tab"> <i class="me-2 bi bi-shield-check"></i><span>Privacy and safety </span></a>
+                  </li>
+                </ul>
+                <!-- Side Nav END -->
+
+              </div>
+              <!-- Card body END -->
+              </div>
+            <!-- Card END -->
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Sidenav END -->
+
+        <!-- Main content START -->
+        <div class="col-lg-6 vstack gap-4">
+          <!-- Setting Tab content START -->
+          <div class="tab-content py-0 mb-0">
+
+            <!-- Account setting tab START -->
+            <div class="tab-pane show active fade" id="nav-setting-tab-1">
+              <!-- Account settings START -->
+              <div class="card mb-4">
+                
+                <!-- Title START -->
+                <div class="card-header border-0 pb-2 pt-2">
+                  <h1 class="h5 card-title">Manage Account</h1>
+                </div>
+                <!-- Card header START -->
+                <!-- Card body START -->
+                <div class="card-header card-footer">
+                  <!-- Form settings START -->
+                  <form class="row g-3">
+                    <!-- First name -->
+                    <div class="col-sm-6 col-lg-4">
+                      <label class="form-label">First name</label>
+                      <input type="text" class="form-control" placeholder="" value="Sam">
+                    </div>
+                    <!-- Last name -->
+                    <div class="col-sm-6 col-lg-4">
+                      <label class="form-label">Last name</label>
+                      <input type="text" class="form-control" placeholder="" value="Lanson">
+                    </div>
+                    <!-- Additional name -->
+                    <div class="col-sm-6 col-lg-4">
+                      <label class="form-label">Additional name</label>
+                      <input type="text" class="form-control" placeholder="">
+                    </div>
+                    <!-- User name -->
+                    <div class="col-sm-6">
+                      <label class="form-label">User name</label>
+                      <input type="text" class="form-control" placeholder="" value="@samlanson">
+                    </div>
+                    <!-- Birthday -->
+                    <div class="col-lg-6">
+                      <label class="form-label">Birthday </label>
+                      <input type="text" class="form-control flatpickr" value="12/12/1990">
+                    </div>
+                    <!-- Phone number -->
+                    <div class="col-sm-6">
+                      <label class="form-label">Phone number</label>
+                      <input type="text" class="form-control" placeholder="" value="(678) 324-1251">
+                    </div>
+                    <!-- Phone number -->
+                    <div class="col-sm-6">
+                      <label class="form-label">Email</label>
+                      <input type="text" class="form-control" placeholder="" value="sam@webestica.com">
+                    </div>
+                    <!-- Page information -->
+                    <div class="col-12">
+                      <label class="form-label">Bio</label>
+                      <textarea class="form-control" rows="2" placeholder="Description (Required)">Interested has all Devonshire difficulty gay assistance joy.</textarea>
+                      <small>Character limit: 50</small>
+                    </div>
+                    <!-- Button  -->
+                    <div class="col-12 text-end">
+                      <button type="submit" class="btn btn-sm btn-primary mb-0">Save changes</button>
+                    </div>
+                  </form>
+                  <!-- Settings END -->
+                </div>
+              <!-- Card body END -->
+              </div>
+              <!-- Account settings END -->
+
+              <!-- Change your password START -->
+              <div class="card">
+                <!-- Title START -->
+                <div class="card-header border-0 pb-0">
+                  <h5 class="card-title">Change your password</h5>
+                </div>
+                <!-- Title START -->
+                <div class="card-header card-footer">
+                  <!-- Settings START -->
+                  <form class="row g-3">
+                    <!-- Current password -->
+                    <div class="col-12">
+                      <label class="form-label">Current password</label>
+                      <input type="text" class="form-control" placeholder="">
+                    </div>
+                    <!-- New password -->
+                    <div class="col-12">
+                      <label class="form-label">New password</label>
+                      <!-- Input group -->
+                      <div class="input-group">
+                        <input class="form-control fakepassword" type="password" id="psw-input" placeholder="Enter new password">
+                        <span class="input-group-text p-0">
+                          <i class="fakepasswordicon fa-solid fa-eye-slash cursor-pointer p-2 w-40px"></i>
+                        </span>
+                      </div>
+                      <!-- Pswmeter -->
+                      <div id="pswmeter-message" class="rounded mt-1"></div>
+                    </div>
+                    <!-- Confirm password -->
+                    <div class="col-12">
+                      <label class="form-label">Confirm password</label>
+                      <input type="text" class="form-control" placeholder="">
+                    </div>
+                    <!-- Button  -->
+                    <div class="col-12 text-end">
+                      <button type="submit" class="btn btn-primary mb-0">Update password</button>
+                    </div>
+                  </form>
+                  <!-- Settings END -->
+                </div>
+              </div>
+              <!-- Card END -->
+            </div>
+            <!-- Account setting tab END -->
+
+            <!-- Notification tab START -->
+            <div class="tab-pane fade" id="nav-setting-tab-2">
+              <!-- Notification START -->
+              <div class="card">
+                <!-- Card header START -->
+                <div class="card-header border-0 pb-2 pt-2">
+                  <h5 class="card-title">Notification</h5>
+                </div>
+                <!-- Card header START -->
+                <!-- Card body START -->
+                <div class="card-header card-footer pb-0">
+                  <!-- Notification START -->
+                  <ul class="list-group list-group-flush">
+                    <!-- Notification list item -->
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0 py-3">
+                      <div class="me-2">
+                        <h6 class="mb-0">Likes and Comments</h6>
+                        <p class="small mb-0">Joy say painful removed reached end.</p>
+                      </div>
+                      <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="NotiSwitchCheckChecked" checked>
+                      </div>
+                    </li>
+                    <!-- Notification list item -->
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0 py-3">
+                      <div class="me-2">
+                        <h6 class="mb-0">Reply to My comments</h6>
+                        <p class="small mb-0">Ask a quick six seven offer see among.</p>
+                      </div>
+                      <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="NotiSwitchCheckChecked2" checked>
+                      </div>
+                    </li>
+                    <!-- Notification list item -->
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0 py-3">
+                      <div class="me-2">
+                        <h6 class="mb-0">Subscriptions</h6>
+                        <p class="small mb-0">Preference any astonished unreserved Mrs.</p>
+                      </div>
+                      <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="NotiSwitchCheckChecked3">
+                      </div>
+                    </li>
+                  </ul>
+                  <!-- Notification END -->
+                  
+                </div>
+              <!-- Card body END -->
+              <!-- Button save -->
+              <div class="card-footer pt-2 text-end border-0">
+                <button type="submit" class="btn btn-sm btn-primary mb-0">Save changes</button>
+              </div>
+            </div>
+              <!-- Notification END -->
+            </div>
+            <!-- Notification tab END -->
+
+            <!-- Privacy and safety tab START -->
+            <div class="tab-pane fade" id="nav-setting-tab-3">
+              <!-- Privacy and safety START -->
+              <div class="card">
+                <!-- Card header START -->
+                <div class="card-header border-0 pb-2 pt-2">
+                  <h5 class="card-title">Privacy and safety</h5>
+                </div>
+                <!-- Card header START -->
+                <!-- Card body START -->
+                <div class="card-header card-footer">
+                  <!-- Privacy START -->
+                  <ul class="list-group">
+
+                    <!-- Privacy item -->
+                    <li class="list-group-item d-md-flex justify-content-between align-items-start">
+                      <div class="me-md-3">
+                        <h6 class="mb-0">Login activity</h6>  
+                        <p class="small mb-0">Select the language you use on social</p>
+                      </div>
+                      <button class="btn btn-primary-soft btn-sm mt-1 mt-md-0" data-bs-toggle="modal" data-bs-target="#modalLoginActivity"> <i class="bi bi-eye"></i> View</button>
+                    </li>
+
+                  </ul>
+                  <!-- Privacy END -->
+                </div>
+                <!-- Card body END -->
+                <!-- Button save -->
+                <div class="card-footer pt-2 text-end border-0">
+                  <button type="submit" class="btn btn-sm btn-primary mb-0">Save changes</button>
+                </div>
+              </div>
+              <!-- Privacy and safety END -->
+            </div>
+            <!-- Privacy and safety tab END -->
+          </div>
+          <!-- Setting Tab content END -->
+        </div>
+
+    </div> <!-- Row END -->
+  </div>
+  <!-- Container END -->
+
+</main>
+<!-- **************** MAIN CONTENT END **************** -->
+
+<!-- Modal login activity START -->
+<div class="modal fade" id="modalLoginActivity" tabindex="-1" aria-labelledby="modalLabelLoginActivity" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal header -->
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalLabelLoginActivity">Where You're Logged in </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ul class="list-group list-group-flush">
+          <!-- location list item -->
+          <li class="list-group-item d-flex justify-content-between align-items-center px-0 pb-3">
+            <div class="me-2">
+              <h6 class="mb-0">London, UK</h6>
+              <ul class="nav nav-divider small">
+                <li class="nav-item">Active now </li>
+                <li class="nav-item">This Apple iMac </li>
+              </ul>
+            </div>
+            <button class="btn btn-sm btn-primary-soft"> Logout </button>
+          </li>
+          <!-- location list item -->
+          <li class="list-group-item d-flex justify-content-between align-items-center px-0 py-3">
+            <div class="me-2">
+              <h6 class="mb-0">California, USA</h6>
+              <ul class="nav nav-divider small">
+                <li class="nav-item">Active now </li>
+                <li class="nav-item">This Apple iMac </li>
+              </ul>
+            </div>
+            <button class="btn btn-sm btn-primary-soft"> Logout </button>
+          </li>
+          <!-- location list item -->
+          <li class="list-group-item d-flex justify-content-between align-items-center px-0 py-3">
+            <div class="me-2">
+              <h6 class="mb-0">New york, USA</h6>
+              <ul class="nav nav-divider small">
+                <li class="nav-item">Active now </li>
+                <li class="nav-item">This Windows </li>
+              </ul>
+            </div>
+            <button class="btn btn-sm btn-primary-soft"> Logout </button>
+          </li>
+          <!-- location list item -->
+          <li class="list-group-item d-flex justify-content-between align-items-center px-0 pt-3">
+            <div class="me-2">
+              <h6 class="mb-0">Mumbai, India</h6>
+              <ul class="nav nav-divider small">
+                <li class="nav-item">Active now </li>
+                <li class="nav-item">This Windows </li>
+              </ul>
+            </div>
+            <button class="btn btn-sm btn-primary-soft"> Logout </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal login activity END -->
+
+  <!-- =======================
+JS libraries, plugins and custom scripts -->
+
+<!-- Bootstrap JS -->
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Vendors -->
+<script src="assets/vendor/choices.js/public/assets/scripts/choices.min.js"></script>
+<script src="assets/vendor/dropzone/dist/dropzone.js"></script>
+<script src="assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
+<script src="assets/vendor/pswmeter/pswmeter.min.js"></script>
+
+<!-- Template Functions -->
+<script src="assets/js/functions.js"></script>
+  
+</body>
+
+<!-- Mirrored from social.webestica.com/settings.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Dec 2022 22:46:54 GMT -->
+</html>
